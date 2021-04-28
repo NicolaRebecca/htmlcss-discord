@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   background:url(../img/jumbo.png) ;
+    background-size: cover;
+    height: 500px;
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+nav.topbar .logo, nav.topbar .login{
+    width: 25%;
+    height: 100%;
+}
+
+nav .topbar{
+    height: 34px;
+    line-height: 34px;
+    color: aliceblue;
+}
+
+nav.topbar .menu{
+width: 50%;
+height: 100%;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 20px;
+    color: white ;
+}
+
+.topbar button{
+    background-color: white;
+    color:black;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px rgb(34, 32, 32);
+}
+
+.login{
+    text-align: right;
+}
+
+.testo-container {
+    padding-top: 8%;
+    text-align: center;
+    color: white;
+}
+
+.testo-container button{
+    margin-left: 20px;
+    background-color: white;
+    color:black;
+    width: auto;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px rgb(34, 32, 32);
+    font-size: 12px;
+
+}
+
+#scarica, #apri-browser{
+    padding-left:20px ;
+    padding-right:20px;
+}
+
+#apri-browser{
+    color: white;
+    background-color: black;
+}
+
+.frog-img {
+    margin-left:200px;
+    width: 678px;
+    height: 450px;
+    margin-top:100px;
+    
+}
+  
+.testo-right{
+    margin-top: 150px;
+margin-right: 200px;
+}
+
+.testo-right span{
+    text-align: center;
+}
+
